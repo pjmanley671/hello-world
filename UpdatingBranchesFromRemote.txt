@@ -1,0 +1,9 @@
+This the test for updating branches via a new remote branch.
+
+Useful commands are:
+git init
+git remote add [name-of-new-remote] [url]
+git branch
+git checkout -b [name-of-new-branch]
+git checkout [name-of-branc]
+git pull [retrieval-remote][destination-remote]
