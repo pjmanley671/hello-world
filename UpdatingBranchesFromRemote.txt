@@ -2,8 +2,19 @@ This the test for updating branches via a new remote branch.
 
 Useful commands are:
 git init
+//---Initializes Git for remote repository usage---//
+
 git remote add [name-of-new-remote] [url]
+//---Adds a remote usage for the given repository url---//
+
 git branch
+//---displays the branches available on the machine for the active directory---//
+
 git checkout -b [name-of-new-branch]
-git checkout [name-of-branc]
+//---Creates a new branch with the given name and switches to it---//
+
+git checkout [name-of-branch]
+//---Swaps over to the given branch---//
+
 git pull [retrieval-remote][destination-remote]
+//---Retrieves all different information committed to one remote repository to another---//
